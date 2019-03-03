@@ -1,0 +1,23 @@
+{
+  "name": "mcollective_agent_terraform",
+  "version": "0.0.1",
+  "author": "Kevin Haefeli <kevin@helio.exchange>",
+  "summary": "Manages Terraform infrastructure provisioning",
+  "license": "Apache-2.0",
+  "source": "https://github.com/khaefeli/mcollective_agent_terraform",
+  "project_page": "https://github.com/khaefeli/mcollective_agent_terraform",
+  "issues_url": "https://github.com/khaefeli/mcollective_agent_terraform/issues",
+  "dependencies": [
+    {
+      "name": "choria/mcollective",
+      "version_requirement": ">= 0.4.0 < 2.0.0"
+    }
+  ],
+  "data_provider": null,
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.9.0"
+    }
+  ]
+}

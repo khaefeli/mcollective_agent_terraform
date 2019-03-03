@@ -4,7 +4,8 @@ metadata :name        => "terraform",
          :author      => "Kevin Haefeli",
          :license     => "GPLv2",
          :version     => "1.1",
-         :timeout     => 600
+         :timeout     => 600,
+         :url         => "https://github.com/khaefeli/mcollective_agent_terraform"
 
 action "echo", :description => "Apply changes to infrastructure" do
     display :always
